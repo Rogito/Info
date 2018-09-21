@@ -1,0 +1,7 @@
+#Sentencias de undeploy de los artefactos en JBOSS_HOME/standalone/deployments/
+
+	undeploy com-app-demo-1.0.0-SNAPSHOT.war
+
+#Sentencias de deploy de los artefactos en JBOSS_HOME/standalone/deployments/
+
+	deploy ../standalone/deployments/com-app-demo-1.0.0-SNAPSHOT.war --runtime-name=com-app-demo.war --unmanaged
